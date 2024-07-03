@@ -48,7 +48,7 @@ spec:
                 - all
             privileged: false
             # readOnlyRootFilesystem: true
-          image: public.ecr.aws/b1o7r7e0/checkoutservice:test
+          image: public.ecr.aws/b1o7r7e0/checkoutservice:9e25e5c9221afc0eac07470af2af814a991646a8
           ports:
           - containerPort: 5050
           # readinessProbe:
